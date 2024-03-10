@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 KEHUEISIN - w3</title><link href="./" rel="alternate"></link><link href="./feeds/w3.atom.xml" rel="self"></link><id>./</id><updated>2024-03-08T18:20:00+08:00</updated><entry><title>W3</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-08T18:20:00+08:00</published><updated>2024-03-08T10:22:25+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 KEHUEISIN - w3</title><link href="./" rel="alternate"></link><link href="./feeds/w3.atom.xml" rel="self"></link><id>./</id><updated>2024-03-10T07:57:47+08:00</updated><entry><title>W3</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-08T18:20:00+08:00</published><updated>2024-03-10T07:57:47+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
 
 
-&lt;h1&gt;將各組員倉儲放到分組網站並建子目錄&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry></feed>
+&lt;h1&gt;將各組員倉儲放到分組網站並建子目錄&lt;/h1&gt;
+&lt;p&gt;method:
+第一步:git clone --recurse-submodules git@mdecycu:mdecd2024/2a-midag8.git  #需有權限才能抓取到
+第二步:直接進入tmp目錄下分組倉儲，後輸入 git submodule add https://github.com/41023110/cd2024.git 41023110  #分組組員個人cd2024倉儲，並以組員倉儲名當作目錄
+第三步:git add .      git commit -m "add"      git push
+並轉交付任務給與組員&lt;/p&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry></feed>
