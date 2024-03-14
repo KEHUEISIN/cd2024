@@ -1,0 +1,16 @@
+\begin{abstract}
+E縮寫列表LIST OF ACRONYMS
+ERP - 企業資源計劃（Enterprise Resource Planning）
+MES - 製造執行系統（Manufacturing Execution System）
+PLM - 產品生命周期管理（Product Lifecycle Management）
+MRP - 物料資源計劃（Material Resource Planning）
+WO - 工作訂單（Work Order）
+BOM - 物料清單（Bill of Materials）
+MO - 製造訂單（Manufacturing Order）
+ECO - 工程變更訂單（Engineering Change Order）
+CPS - 智能製造系統（Cyber-Physical System）
+IoT - 物聯網（Internet of Things）
+DT - 數位孿生（Digital Twin）
+GUI - 圖形用戶界面（Graphical User Interface）
+CNC - 數控機床（Computer Numerical Control）
+\end{abstract}
