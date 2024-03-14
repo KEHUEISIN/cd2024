@@ -1,0 +1,144 @@
+% 第二章內容
+\chapter{專題簡介}
+2. 章CHAPTER
+理論背景THEORETICAL BACKGROUND
+This chapter is a brief introduction to the different systems that deal with data production collection and processing around the concept of enhancing all aspects of production that are favored by the academic community as well as the current and future state of industry for which these systems should prove to be indispensable.
+ It is important to notice from this part that these are not completely separate information systems. They start from different perspectives and they try to solve different problems but because of broad definitions they unavoidably expand into each other. 
+That represents a problem on its own since from the available literature it becomes difficult to pinpoint where the boundary of a system ends and another one starts. The Odoo management software (that is a topic of this work) considers PLM mainly as a tool for tracking change and improvements, while other key characteristics of PLM, like the use of digital items (later detailed at section 2.1), is a base characteristic of the material requirements planning which is a tool utility that also dabbles into MES.
+本章是對不同系統的簡要介紹，這些系統涉及數據生產、收集和處理的概念，這些概念受到學術界以及目前和未來行業的青睞，這些系統應該被證明是不可或缺的。
+從這部分重要的是要注意，這些並不是完全獨立的信息系統。它們從不同的角度開始，它們試圖解決不同的問題，但由於廣泛的定義，它們不可避免地會相互擴展。這本身就是一個問題，因為從現有的文獻中變得很難確定一個系統的界限在哪裡結束，另一個系統從哪裡開始。
+Odoo管理軟件（這是本作品的主題）主要將PLM視為跟踪變更和改進的工具，而PLM的其他關鍵特性，如使用數字項目（稍後在第2.1節詳細介紹），是物料需求計劃的基本特性，這也是一種涉及MES的工具。
+2.1. 產品生命周期管理Product lifecycle management
+Any information produced by an individual or team is done by an empirical creative process. A task requires either previous knowledge/experience or it will be inevitably plagued by mistakes and corrections, which in turn generates said experience in exchange of time and resources. 
+That experience is, traditionally, embedded in the human resource (employee) that produced the information in the first place. Product Life-Cycle Management (PLM) is an organizational process that aims to control the flow of information regarding all aspects of a product throughout its life-cycle. As one can imagine, this definition, and its broad scope, does not make understanding PLM any easier. The thing to focus on, for all purposes, is that PLM true value is in what concerns change.
+任何由個人或團隊產生的信息都是通過經驗創造過程完成的。一項任務要求要么具有先前的知識/經驗，要么將不可避免地受到錯誤和更正的困擾，這反過來又以時間和資源的交換生成了該經驗。這種經驗，傳統上，嵌入在首次產生信息的人力資源（員工）中。
+產品生命周期管理（PLM）是一個組織過程，旨在控制有關產品在其整個生命周期中的所有方面的信息流動。正如人們可以想像的那樣，這個定義及其廣泛的範圍並不會使理解PLM變得更容易。在所有情況下要關注的是，PLM的真正價值在於與變更有關的方面。
+
+% 引用 2024-03-14 191644.png 圖片檔案
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/2024-03-14 191644.png}
+  \caption{Figure 1 產品生命周期階段Product lifecycle stages（Tripaldi，2019）}
+  \label{fig:2024-03-14 191644}
+\end{figure}
+
+PLM is above all a connecting technology, not an individual technology islet or information processing system (Saaksvuori and Immonen, 2008). 
+The idea is that every information produced by company personnel holds value equivalent to the time and money invested. Using that information saves money, not using that information wastes money. 
+This is easier to understand when looking to a design process. E.g. if an engineer designs an electronic circuit, the file holding the CAD drawing has an equivalent value to the time and money invested in it. 
+The problem comes from the fact that in a traditional system only the engineer knows the design process behind the file, the extent of what is inside and its possible uses. While, from the perspective of the rest of the company, that is just a file in the database alongside thousands of others. The result is that, on its own, the information is of limited use. 
+If by any chance there is another engineer working in a similar design it will become extremely difficult for him/her to find that file and use it in his own design. 
+Ultimately this 5 results in waste because Engineer#2 will have to spend more time and money doing something that was already made just because that information was not easily available or well organized. This scenario is not limited to product design, but also to all aspects of the product lifecycle that produces change over time. Someone had to orchestrate how that piece will be produced , how that piece will be moved,packed , distributed and disposed of. 
+When a problem is found or improvements are possible those changes also produce information and consume resources. 
+If the company cannot take advantage of that existing information about all those phases of the product conception it will waste resources at every single redesign. 
+Product Lifecycle Management consists of an information system that allows information and knowledge sharing within and between organizations (Sudarsan et al., 2005) minimizing the waste by controlling and organizing those files with information that would otherwise be carried only by the human resource that produced said files. 
+The way it accomplishes that is by virtualizing all components of the product life-cycle in the form of digital “items” in an object oriented architecture. 
+As explained by (Saaksvuori and Immonen, 2008),an item is a systematic and standard way to identify, encode and name a product, a product element or module, a component, a material or a service. These item objects are, by all means, virtual representations that hold metadata regarding what it tries to represent and allows to connect and link the information. As described by (D’Antonio et al., 2015) product information should be connected to its production process. 
+PLM allows to link defined processes to the product and to provide constraints on the order of process execution. E.g. a CAD drawing for a circuit schematic is attached to a virtual circuit object that holds basic information about what is contained in the file and all the previous iterations of that file over time as well as links to items representing which bill of materials (BOM) it belongs to, the machines necessary to manufacture it, the processes necessary to assemble it and more importantly how all those items changed over each improving iteration. This all-around virtualization gives precious context to information otherwise lost on its own complexity. It allows for faster access, easier understanding of the whole and the consequences of what happens when there is change for each part. 
+This is the best way of organizing the existing data for future reference because it allows for structure as well as transparency. To sum up, PLM as a system aims to track functional change in all aspects regarding the product life, in a way that the company can benefit strategically from it by avoiding informational waste. 
+It does so by virtualizing the real thing in the form of digital items that store the files regarding what the item is supposed to represent. These can in turn be correlated and tracked over time using metadata.
+PLM最重要的是一種連接技術，而不是一個獨立的技術小島或信息處理系統（Saaksvuori和Immonen，2008）。這個想法是公司人員所產生的每一條信息都具有相當於投入時間和金錢的價值。利用這些信息可以節省錢，不利用這些信息會浪費錢。這在看待設計過程時更容易理解。
+例如，如果一位工程師設計了一個電子電路，保存CAD圖紙的文件就具有與投入時間和金錢等值的價值。問題在於，在傳統系統中，只有工程師知道文件背後的設計過程，以及文件中包含的內容和可能的用途的程度。然而，從公司其他部門的角度來看，這只是數據庫中的一個文件，和其他數千個文件一樣。結果是，單獨看，這些信息的用途有限。
+如果碰巧另一位工程師正在進行類似的設計工作，他/她將極難找到該文件並在自己的設計中使用它。最終這導致了 inefficiencies（不符合效率的部分）
+- 實際上，PLM建立了一個數字存儲庫，所有數字文件都被管理和關聯起來，以便在需要時可以輕鬆訪問和共享。這意味著一個工程師設計的電路可以被公司其他部門的人在需要時輕鬆地找到並使用，從而節省了時間和成本。
+- 此外，PLM還有助於創建透明度，使公司更容易檢查和管理其產品的整個生命周期。這有助於更好地理解產品的發展過程，並在必要時進行修改或改進。
+- 最重要的是，PLM還有助於確保數據的準確性和一致性。這對於在設計和生產過程中避免錯誤和失誤至關重要。
+這些因素使得PLM成為現代製造企業不可或缺的一部分，特別是在處理大量和複雜數據時。通過PLM，企業可以更有效地管理和利用其數字資產，從而提高生產效率和產品質量。
+這導致浪費，因為第二位工程師將不得不花更多的時間和金錢去做一些已經完成的工作，只是因為該信息不容易獲得或組織不良。
+這種情況不僅限於產品設計，還涉及到產品生命周期的所有方面，隨著時間的推移產生變化。有人必須策劃該產品如何生產，如何移動、包裝、分發和處置。當發現問題或存在改進的可能性時，這些變化也會產生信息並消耗資源。如果公司無法利用所有這些產品構思階段的現有信息，則在每次重新設計時都會浪費資源。
+產品生命周期管理包括一個信息系統，允許組織內部和組織之間分享信息和知識（Sudarsan等人，2005），通過控制和組織那些具有信息的文件，最小化浪費，否則這些信息將僅由生成這些文件的人力資源承載。它實現這一目標的方式是通過將產品生命周期的所有組件虛擬化為數字“項目”存在於面向對象的架構中。正如（Saaksvuori和Immonen，2008）所解釋的，項目是一種系統和標準的方式來識別、編碼和命名產品、產品元素或模塊、零件、材料或服務。
+這些項目對象在所有方面都是虛擬表示，包含有關其所試圖表示的內容的元數據，並允許連接和鏈接信息。正如（D’Antonio等人，2015）所描述的，產品信息應與其生產過程相關聯。PLM允許將定義的流程與產品相關聯，並對流程執行的順序提供約束。例如，一個用於電路原理圖的CAD繪圖附加到一個虛擬電路對象上，該對象包含有關文件中所含內容的基本信息，以及隨著時間的推移文件的所有先前版本，以及與表示它屬於的物料清單（BOM）、製造它所需的機器、組裝它所需的過程等項目的鏈接，更重要的是所有這些項目如何在每次改進的迭代中改變。
+這種全方位的虛擬化賦予了信息寶貴的上下文，否則這些信息將因其自身的復雜性而丟失。它允許更快的訪問，更容易理解整體以及每個部分發生變化時的後果。這是組織現有數據以供將來參考的最佳方式，因為它既具有結構又具有透明度。
+總之，作為一個系統，PLM旨在跟踪與產品生命周期有關的所有方面的功能性變化，公司可以從中戰略性地受益，避免信息浪費。它通過將真實物品虛擬化為數字項目
+實現這一目標，這些項目存儲有關該項目應該代表的文件。這些又可以使用元數據相關聯和跟踪隨時間推移。
+2.2. 企業資源計劃Enterprise Resource Planing
+In the early days of information systems, one of the first systems to find wide implementation was the called MRP (Material Requirements Planning). Although not necessarily software based, this system wide implementation was a natural consequence of computing technology and it aimed to solve bottlenecks regarding the material supplying and product output by calculating the material needs for production. As it became more ubiquitous in the enterprise in the late 70’s and early 80’s the system evolved. This gave origin to MRP II (Manufacturing Resource Planning) and, more important to the scope of this paper, ERP (Enterprise Resource Planning). 
+For the most part modern Enterprise Resource Planning expands the original MRP function to encompass many other aspects of enterprise operations all while adding modularity to the system. 
+Modern ERP systems are often module based; different modules have different user interfaces and different user groups. For example, Manufacturing module, Procurement module, Logistics module, Financial module, Maintenance module, Sales module. (Saaksvuori and Immonen, 2008). These modules expand across many domains of knowledge but for the most part they do so always from the perspective of Production, Sales and Service. Figure 2 depicts the scope of the ERP system in comparison to other Information systems.
+在信息系統的早期，一個最早被廣泛實施的系統是所謂的MRP（物料需求計劃）。雖然不一定基於軟件，但這種系統的廣泛實施是計算技術的自然結果，它旨在通過計算生產所需的材料來解決物料供應和產品產出方面的瓶頸。隨著它在70年代末和80年代初在企業中變得更加普及，這個系統也逐漸演變。這導致了MRP II（製造資源計劃）的產生，更重要的是對本文範圍的ERP（企業資源計劃）。
+在很大程度上，現代企業資源計劃將原始的MRP功能擴展到包括企業營運的許多其他方面，同時為系統添加了模塊化。
+現代ERP系統通常是基於模塊的；不同的模塊具有不同的用戶界面和不同的用戶群體。例如，製造模塊、採購模塊、物流模塊、財務模塊、維護模塊、銷售模塊（Saaksvuori和Immonen，2008）。這些模塊擴展到許多知識領域，但在很大程度上，它們總是從生產、銷售和服務的角度進行擴展。圖2描述了ERP系統的範圍，並與其他信息系統進行了比較。
+
+% 引用 2024-03-14 192053.png 圖片檔案
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/2024-03-14 192053.png}
+  \caption{Figure 2 Visual representation of the scope of different information systems
+(Adapted from Stark 2015)
+）}
+  \label{fig:2024-03-14 192053}
+\end{figure}
+
+This sort broad reach across the domains makes sense because the ERP operations, as were in the case of MRP, focus on handling transactions and orders. The focus of the ERP is controlling the change in input, retention and output of resources to the company, be of products, raw materials or packing. 
+From the same image, it is possible to see the theoretical contrast between PLM and ERP even though they are both extremely broad. While ERP expands across the domains of knowledge but limits itself to a few functions, PLM expands across all functions that involve the product. As portrayed by Figure 3, another point of view that represents a good difference between the two is the lack of overlap in what concerns the scale or level of detail in which ERP and PLM affects the industry (i.e. the granularity of the two systems).
+這種廣泛覆蓋不同領域的做法是有道理的，因為ERP的運營，就像MRP的情況一樣，專注於處理交易和訂單。 ERP的重點是控制公司資源（產品、原材料或包裝）的輸入、保留和輸出的變化。
+從同一圖像中，可以看到PLM和ERP的理論上的對比，儘管它們都非常廣泛。雖然ERP擴展到了知識領域，但它僅限於少數功能，而PLM擴展到了涉及產品的所有功能。正如圖3所示，另一個表示兩者之間差異的觀點是在影響行業的規模或細節級別方面，ERP和PLM之間缺乏重疊（即兩個系統的細緻度）。
+
+% 引用 2024-03-14 192253.png 圖片檔案
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/2024-03-14 192253.png}
+  \caption{Figure 3 Visual comparison of ERP and PLM concerning granularity (Adapted from Stark, 2015)}
+  \label{fig:2024-03-14 192253}
+\end{figure}
+
+As we can see, ERP is primarily concerned with the transaction and the order. Once an order is closed out, the ERP system processes the transactions with respect to that order but is not very much concerned with the order beyond that. On the other hand, PLM’s granularity is concerned with the order for the product and extends not only into the program, but into the family and the entire industry (Stark, 2015). 
+This is particularly interesting because it demonstrates how the two systems can and do complement each other in the field. One of the aspects of ERP that should point out is that it is comparatively easier to integrate with other systems. ERP-MES integration for instance has been widely studied and implemented to the point where standards have been developed for it (ISA 95 - IEC 62264). One argument for this is the modular nature of the ERP system which is discussed further in the paper in (Chapter 5) with the analysis of the Odoo software. That is because the Odoo software evolved originally from an open-source ERP system. 
+The nature of the ERP system is best summed up by (Umble et al. 2003): ERP provides a unified enterprise view of the business which encompasses all functions and departments, and an enterprise database in which all actions concerning finance, sales, marketing, purchasing and human resources are traced. The aim of this achieving is to expand the customers target and increase customers share in a market that slowly pivots to innovation (Vásquez and Escribano, 2017).
+如上所示，ERP主要關注交易和訂單。一旦訂單完成，ERP系統會根據該訂單處理交易，但在這之後對該訂單並不太關心。另一方面，PLM的細緻度關注產品的訂單，不僅涉及到程序，還涉及到產品家族和整個行業（Stark, 2015）。這對於展示這兩個系統在該領域中如何互補是特別有趣的。值得指出的是，ERP的一個方面是，它相對容易與其他系統集成。例如，ERP-MES集成已經被廣泛研究和實施，甚至已經制定了相應的標準（ISA 95 - IEC 62264）。其中一個原因是ERP系統的模塊化性質，這在本文中（第5章）中將通過對Odoo軟件的分析進行進一步討論。這是因為Odoo軟件最初是從一個開源ERP系統演變而來的。ERP系統的性質最好由（Umble et al. 2003）總結：ERP提供了一個統一的企業視圖，包括所有功能和部門，以及一個企業數據庫，其中跟踪了所有與財務、銷售、營銷、採購和人力資源有關的行動。達到這個目標的目的是擴大客戶目標，增加在一個慢慢轉向創新的市場中的客戶份額（Vásquez and Escribano, 2017）。
+2.3. Manufacturing Execution System
+The final key of a fully integrated system would be the Manufacturing Execution System (MES). A MES is a layer of communication between the management and the production levels; it is a software that allows data exchange between the organizational level, usually supported by an ERP, and the shop-floor control systems, in which several, different, very customized software applications are employed (Meyer et al., 2009). Figure 4 is a nice depiction of how different systems fit within the scope of manufacturing and development.
+最終完全集成系統的關鍵之一將是製造執行系統（MES）。 MES是管理層和生產層之間的通信層；它是一種軟件，允許組織層（通常由ERP支持）和車間控制系統之間進行數據交換，後者使用了多種不同的、非常定制化的軟件應用程序（Meyer et al.，2009）。
+
+% 引用 2024-03-14 192437.png 圖片檔案
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/2024-03-14 192437.png}
+  \caption{圖4很好地描述了不同系統如何在製造和開發範圍內進行配合。}
+  \label{fig:2024-03-14 192437}
+\end{figure}
+
+For all purposes MES main goal is to provide the numbers and data that ultimately is used to ascertain the condition and quality of not only the products but also all the processes that affect production. Machines, sensors, and anything that comes in contact with the product and provides output of any kind, basically, handing said data to the MES for sorting and processing in real time. E.g. if a manager wants to know the instant production numbers or to see a graphical representation of the rejection rate, that data will be available from a MES software. 
+Traditionally it is from this sort of information that management will evaluate efforts and make decisions. As mentioned before this sort of data collection fits perfectly to the use of ERP not only because the management of resources can be much more detailed if complemented by real time production data but also because the modularity of ERP usually means a seamless integration. MES (like ERP) has also been proven and implemented for decades and their implementation have already been standardized to a reasonable degree
+就所有目的而言，MES的主要目標是提供數據和數字，最終用於確定產品的狀況和質量，以及影響生產的所有過程。機器、傳感器以及與產品接觸並提供任何類型輸出的所有物品，基本上將這些數據交給MES進行實時的排序和處理。例如，如果經理想要知道即時的生產數字或查看拒收率的圖形表示，這些數據將可以從MES軟件中獲得。
+傳統上，管理層將從這種類型的信息中評估努力並做出決策。如前所述，這種數據收集方式非常適合使用ERP，不僅因為如果配合實時生產數據，資源管理可以更加詳細，而且因為ERP的模塊化通常意味著無縫集成。MES（就像ERP一樣）也經過了數十年的證明和實施，它們的實施已經被合理地標準化。
+The functionalities of a MES have been grouped in 11 categories by MESA International (1997); furthermore, the tasks for each enterprise layer and, in turn, for each kind of information system are listed in the ISA95 – IEC62264 (2013) standard. This standard also provides definitions for the data structures to be exchanged among information systems aiming to enhance their integration; however, it mainly focuses on ERP-MES-Shop floor integration (D’Antonio et al., 2015). 
+PLM studies by comparison are much more recent and PLM-MES integration, a main focus of this work, even more so. The challenge of this sort of integration and the state of the art regarding it was be covered in (Chapter 3) as well as the theoretical structure behind it. For now, suffice to point out that since MES provides the feedback by which changes are orchestrated and results are validated by generating information in the form of files and PLM focus on the tracking change by file organization there sure is value in the PLM-MES integration.
+MES的功能被MESA International (1997)分為11個類別；此外，ISA95 - IEC62264 (2013)標準列出了每個企業層次和每種信息系統的任務。該標準還為信息系統之間交換的數據結構提供定義，旨在增強它們的集成；然而，它主要關注ERP-MES-車間集成（D'Antonio等，2015年）。
+相比之下，PLM的研究更加新近，而PLM-MES集成，本文的主要焦點更加如此。這種集成的挑戰以及相關技術的最新狀況在第三章中已經涵蓋了，以及背後的理論結構。暫且不論，MES提供了通過生成文件形式的信息來指導變更並驗證結果的反饋，而PLM則著眼於通過文件組織來跟蹤變更，因此PLM-MES集成確實具有價值。
+2.4. 工業4.0 Industry 4.0
+
+The term Industry 4.0 is one mentioned time and time again in modern literature as the next or current step in the evolution of production. It represents what is the 4 th industrial revolution where the first was marked the adoption of steam power, the second was marked mainly using electrical power and the 3 rd was characterized by the implementation of digital technology. Figure 5 nicely represents the progression of industrial revolutions.
+工業4.0這個術語在現代文獻中一再提及，被視為生產演進的下一步或當前階段。它代表著第四次工業革命，第一次是以蒸汽動力為特徵，第二次主要是使用電力，第三次則以數字技術的實施為特徵。圖5很好地展示了工業革命的進程。
+
+% 引用 2024-03-14 192627.png 圖片檔案
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/2024-03-14 192627.png}
+  \caption{圖 5 工業演進The industry evolution
+(來源: STANCIOIU Alin, 2017)
+}
+  \label{fig:2024-03-14 192627}
+\end{figure}
+
+In broad strokes the 4th industrial revolution is (or will be) ultimately marked by the full integration between digital connectivity and production. As it is well known that the development of digital networks is the pivotal technology that sustain the modern world. It has changed the way humans interact and do business. However, whether the current level in which it is applied to the industry constitutes an industrial revolution is still uncertain because in all other revolutions have been marked by a violent increase in production that is yet to happen this time around. In fact, we are still to reach a shared definition of Industry 4.0. 
+What has been widely accepted however is that there are at least 3 technologies that characterize Industry 4.0. Those are the Internet of things (IoT), Cloud computing and the development of Cyber-Physical Systems (CPS), the last of which is particularly important for the context of this thesis. 
+CPS are systems consisting in a real entity (for example, a machine) and its corresponding virtual model – embedding all the models for mimicking the behavior of the real counterpart – capable to communicate with each other (D’Antonio et al., 2017). The idea is that, if one were to develop a digital twin (DT) of all physical instruments regarding a process in a system that allows for the digital counterparts to interact with each other as well as interacting with the physical world, innovation or change of said process would occur much faster and effectively. E.g., an engineer could simulate a change using the DT’s interaction, then, if successful, apply the change automatically to the production line in real time, execute tests, gather data and feed it back to the system without the need of manual input with all being done through the network. 
+The main point to be derived from all this is that PLM-MES systems possibly are the first step to achieve a proper CPS since it provides for the virtualization and necessary control to reach something near a virtual twin. The debatable matter is how deep is its current effect in industrial application. 
+Nonetheless, the term Industry 4.0 is, if anything, a useful denotation to the increasing application of digital connectivity, network development and the internet to industry. 
+Another term often included within the scope of Industry 4.0 is the called Lot Size One or Lot 1. This is the idea of each item customized to the individual specifications of the buyer in a system in which a customer order does not start supply chain equipment moving; it turns on manufacturing machines. 
+The theory behind it is that as production and development becomes more and more flexible as this sort of manufacturing becomes not only viable but also attractive. Having a tailored requested product means that there are no storage requirements, no inventory overhead, and of course a 100% guaranteed sell. This concept is not new by any means, in fact it predates Industry 4.0 quite a lot. In the book “The machine that changed the world” the authors (Womack et al., 1990) discuss that toward this end, lean producers employ teams of multiskilled workers at all levels of the organization and use highly flexible, increasingly automated machines to produce volumes of products in enormous variety.
+ In a way ‘Lot Size One’ is nothing more than the extrapolation of this sort of thinking. Of course, the industry is yet to reach such level of production flexibility, but glimpses of this sort of mentality can already be seem on more modular productions. One of the best examples is amazon packing systems. E.g. a customer receives a package from Amazon containing a mix of products that has been packaged just for him/her according to their specific order. Although superficial in nature, this represents a high level of customization for the customer. 
+Another great example is electronics prototyping. Currently there are companies that take your printed circuit board designs and BOM, delivering small batches of assembled prototypes at a low cost. Prototyping of electronical devices used to be a highly expensive process, but some companies have flexibilized their production to the degree where they are able to deliver it fast and reliably. Again, that is possible because electronics components are inherently modular systems even if of high complexity. The following image (Figure 6 Example project of power supply adaptor circuit) is an example of an electronic circuit that was designed by this student and manufactured by JLCPCB within a single week.
+這張圖很好地展示了工業的演進過程。第一次工業革命以蒸汽動力為特徵，第二次工業革命主要是使用電力，第三次工業革命則以數字技術的實施為特徵。工業4.0代表著第四次工業革命，是當前生產方式的一個新階段。
+在廣泛的描述中，第四次工業革命最終將以數字連接和生產的完全整合為特徵。眾所周知，數字網絡的發展是維持現代世界的關鍵技術。它改變了人類的互動方式和商業運作方式。然而，目前應用於工業的水平是否構成了一次工業革命還不確定，因為在其他所有革命中，生產的大幅增長尚未發生。事實上，我們還沒有達成對工業4.0的共識定義。
+然而，已經被廣泛接受的是，工業4.0至少有三項技術特徵。這些是物聯網（IoT）、雲計算和對Cyber-Physical Systems（CPS）的發展，後者對本論文的背景尤為重要。
+CPS是由一個實體（例如機器）及其相應的虛擬模型組成的系統，其中包含了所有模型，以模擬真實對應物件的行為，這兩者能夠彼此通信(D'Antonio等，2017)。其概念是，如果一個人開發了一個處理系統中所有與過程有關的物理儀器的數字雙胞胎（DT），使得數字對應物件能夠彼此互動，並與物理世界互動，則對該過程進行創新或變更將更快速和有效。例如，工程師可以使用DT的互動來模擬變更，然後如果成功，將變更自動應用到生產線上，實時執行測試，收集數據並將其反饋給系統，無需手動輸入，全部都通過網絡完成。
+從所有這些中可以得出的主要觀點是，PLM-MES系統可能是實現適當CPS的第一步，因為它提供了虛擬化和必要的控制，以達到接近虛擬雙胞胎的狀態。爭議的問題是它目前在工業應用中的深度效應如何。
+儘管如此，工業4.0這一術語如果算什麼，至少是對數字連接、網絡發展和互聯網應用於工業的不斷增加的一個有用的標誌。工業4.0範疇內經常包括的另一個術語是所謂的Lot Size One或Lot 1。這是指每個物品根據買家的個人規格定製，在這樣的系統中，客戶訂單不會啟動供應鏈設備運行，而是啟動製造機器。
+其背後的理論是隨著生產和開發變得越來越靈活，這種製造方式不僅變得可行，而且變得有吸引力。擁有定製的產品意味著不需要存儲要求，不需要庫存。
+
+
+
+間接費用，當然也是一個100%保證的銷售。這個概念絕非新奇，事實上，它早在工業4.0之前就存在了很長一段時間。在書籍《改變世界的機器》中，作者（Womack等人，1990年）討論到，為了實現這一目標，精益生產者在組織的各個層面都雇用了一隊多技能的工人，並使用高度靈活、日益自動化的機器來生產各種各樣的產品。
+從某種意義上說，“Lot Size One”不過是這種思維的延伸。當然，工業還沒有達到這種生產靈活性的水平，但這種思維的閃現已經在更模塊化的生產中看到了。亞馬遜的包裝系統就是最好的例子之一。例如，一個顧客從亞馬遜收到一個包裹，裡面包含了根據他們的具體訂單而為他們打包的各種產品的混合物。雖然表面上看起來很簡單，但對於顧客來說，這代表了高度的定製性。另一個很好的例子是電子原型設計。目前有一些公司接受您的印刷電路板設計和BOM，以低成本提供小批量組裝的原型樣品。電子設備的原型設計過去是一個非常昂貴的過程，但一些公司已經將他們的生產程度靈活化到可以快速且可靠地交付的程度。同樣地，這是因為電子元件本身就是模塊化系統，即使是高度複雜的系統。下面的圖片（圖6 電源適配器電路的示例項目）展示了這位學生設計的電子電路，並在一周內由JLCPCB製造的示例。
+\lipsum[2]
