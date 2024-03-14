@@ -1,0 +1,6 @@
+\begin{abstract}
+This work is subject to the Creative Commons Licence 
+All Rights Reserved
+此作品受 Creative Commons 授權條款保護
+保留所有權利
+\end{abstract}
