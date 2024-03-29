@@ -1,0 +1,32 @@
+% 第一章內容
+\chapter{專題簡介}
+引言INTRODUCTION
+1.1. 目標Objective
+The thesis has the objective of finding out how far PLM+MES system can be implemented by using the readily available Odoo software by analyzing the different concepts and dynamics that would consist said integration and they apply a fictional scenario to determine if and which of those concepts are included within this packaged solution. To contextualize, the Odoo software differs from other solutions in the market substantially both in implementation and business model. 
+To summarize, the Odoo software was originated as an open-source ERP software as oppose to a PLM or MES software and as such its availability and modularity are reasonably expanded. 
+It goes without saying that the counter point for this that its usability in the field of PLM or MES is uncertain hence the value of this work. Specifically, from the perspective of small manufacturing business and startups, the idea of an all-around ERP that implements a PLM-MES system is extremely valuable. Although ERP systems are somewhat available, they rarely venture deep enough into manufacturing to expand into PLM or MES solutions. In addition, the other direction is also relevant since PLM solutions tend to not have the expandability of an ERP which usually means that any integration requires specialized ad-hoc work. 
+Although modifying the software do not fall within the scope of this work, the fact that the software has an open-source community version means that adapting the software even to the most specific cases may prove to be easier and economical barriers for adopting lower, further emphasizing the possible utility of this software in the context of small business.
+ Ultimately, the thesis will give theoretical and practical advices on how to further exploit this system.
+ It will also lay the ground for future works on the Odoo software and checks on how the solution is performing by identifying specific key aspects of PLM-MES integration and implementation.
+本論文的目標是通過分析構成該整合的不同概念和動態，利用現有的Odoo軟件，找出PLM+MES系統可以實現到何種程度，並應用一個虛構的場景來確定哪些概念包含在這個打包解決方案中。
+為了加入語境，Odoo軟件在實施和業務模式上與市場上的其他解決方案有很大的不同。總而言之，Odoo軟件起源於一個開源的ERP軟件，而不是PLM或MES軟件，因此其可用性和模塊化程度都有相當大的擴展。不用說，這一點的反面是，它在PLM或MES領域的可用性是不確定的，因此本作品的價值也因此而出現。
+具體來說，從小型製造業務和初創企業的角度來看，實施PLM-MES系統的全面ERP的概念極其有價值。儘管ERP系統在某種程度上是可用的，但它們很少深入到製造業，以擴展到PLM或MES解決方案。此外，另一個方向也是相關的，因為PLM解決方案往往沒有ERP的擴展性，這通常意味著任何集成都需要專門的特定工作。
+雖然修改軟件不在本作品的範圍內，但軟件具有開源社區版本的事實意味著即使對於最特定的情況，適應軟件可能會更容易且經濟門檻更低，進一步強調了該軟件在小型企業背景下的可能效用。
+最終，本論文將就如何進一步利用這一系統提供理論和實踐建議。它還將為Odoo軟件的未來工作奠定基礎，並通過識別PLM-MES整合和實施的具體關鍵方面，檢查解決方案的表現。
+1.2. 結構Structure
+This work could be a reference for an actual implementation of the described solution in small manufacturing enterprises and it can be treated as introductory material to PLM-MES and their implementation, as well as first principles and review of the current state of the Odoo software regarding it. 
+To such end, this thesis presents the following structure: 
+▪ Chapter 1 - Introduction to this work and its objectives. Furthermore, it provide a succinct explanation of why this software solution requires this sort of analysis in the first place and how it was be structured. 
+▪ Chapter 2 – This chapter introduce the basic theoretical background to PLM, MES, ERP and Industry 4.0. These are presented in order to create the grounds to a meaningful contribution in this kind of analysis as well as providing meaningful context for its implementation in case the reader is a small business representative.
+ ▪ Chapter 3 – This chapter is all about the integration between PLM and MES systems as discussed by previous works and as was be analyzed in this work. This is useful to stablish the concepts and dynamics that are the subject when analyzing the Odoo software. 
+▪ Chapter 4 – Introduction to the fictional company and products chosen in the molds of Industry 4.0 to be used in the further analysis and evaluation of the Odoo software. 
+▪ Chapter 5 – The introduction to the Odoo software as well as a more in-depth explanation of its use and functionalities. The description of the experimentation of the Odoo software taking in consideration all the previous chapters 
+▪ Chapter 7 - Conclusions The last chapter describes the takeaways of the work: how a medium enterprise can improve its processes through an informed use of a PLM+MES system implemented using the Odoo software.
+本論文可以作為小型製造企業描述的解決方案的實際實施的參考，也可以作為PLM-MES及其實施的入門材料，以及對Odoo軟件在這方面的現狀和評估的第一原則和概述。為此，本論文呈現了以下結構：
+第1章 - 介紹本論文及其目標。此外，它提供了一個簡潔的解釋，為什麼這種軟件解決方案首先需要這種分析，以及如何結構化。
+第2章 - 本章介紹了PLM、MES、ERP和工業4.0的基本理論背景。這些被呈現是為了在這種分析中提供有意義的貢獻的基礎，同時為小型企業代表讀者提供實施上下文的有意義背景。
+第3章 - 本章是關於PLM和MES系統之間的整合，如先前的作品所討論的，以及本作品中所分析的。這對於建立分析Odoo軟件時所涉及的概念和動態是有用的。
+第4章 - 介紹在工業4.0的模具中選擇的虛構公司和產品，這些產品將用於對Odoo軟件進行進一步分析和評估。
+第5章 - 介紹Odoo軟件以及對其使用和功能的更深入解釋。考慮到所有先前的章節，描述了對Odoo軟件的實驗。
+第7章 - 結論。最後一章描述了這項工作的主要結果：一家中型企業如何通過知情地使用使用Odoo軟件實施的PLM+MES系統來改進其流程。
+\lipsum[2]

@@ -1,0 +1,9 @@
+\begin{abstract}
+ACKNOWLEDGMENTS 
+I would like to thank Dr. Giulia Bruno for her expert advice and invitation to develop this project, as well as Emiliano Traini, for his extraordinary support in this thesis process. 
+My most sincere gratitude to my parents, Julio and Michelle, who gave me everything, from my life to their extensive and unconditional support and encouragement; also, to my brothers and my fiancée Ana, who inspired me through all these years. 
+My deepest thanks and appreciation to Icaro, Matt, and Maz, for their endless help and support throughout not just this project, but for all the other moments in which they pushed me to be better. Also, for those who have touched my life, being my greatest gifts, you all know who you are, and I am truly grateful for sharing special moments of my life with you.
+致謝
+我要感謝 Giulia Bruno 博士對這個項目的專業建議和邀請，以及 Emiliano Traini 在這篇論文過程中給予的非凡支持。我最誠摯的感謝送給我的父母，Julio 和 Michelle，他們給了我一切，從我的生命到他們廣泛而無條件的支持和鼓勵；同樣也感謝我的兄弟和我的未婚妻 Ana，他們在這些年裡激勵著我。
+我深深地感謝和珍惜 Icaro、Matt 和 Maz，他們在這個項目中不僅給予了我無盡的幫助和支持，還在其他時刻推動我變得更好。同樣也感謝那些影響了我的人，你們是我最大的禮物，你們都知道自己是誰，我非常感激與你們分享生命中特別時刻。
+\end{abstract}
