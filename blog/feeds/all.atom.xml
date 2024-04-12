@@ -14,7 +14,7 @@
 
 
 &lt;h1&gt;更分組網站內容&lt;/h1&gt;
-&lt;p&gt;將各組員相關內容放到分組相對應的網頁上，並且指派作業給與組員，因將內容都更在分組網站上，因此這邊內容會減少，&lt;/p&gt;</content><category term="w6-41023108"></category><category term="網誌編寫 41023108"></category></entry><entry><title>W3</title><link href="./2024-Spring-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-08T18:20:00+08:00</published><updated>2024-03-10T07:57:47+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-Spring-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
+&lt;p&gt;將各組員相關內容放到分組相對應的網頁上，並且指派作業給與組員，因將內容都更在分組網站上，因此這邊內容會減少，&lt;/p&gt;</content><category term="w6-41023108"></category><category term="網誌編寫 41023108"></category></entry><entry><title>W3</title><link href="./41023108-w3.html" rel="alternate"></link><published>2024-03-08T18:20:00+08:00</published><updated>2024-04-12T08:44:35+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./41023108-w3.html</id><summary type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
 
 
@@ -23,7 +23,7 @@
 第一步:git clone --recurse-submodules git@mdecycu:mdecd2024/2a-midag8.git  #需有權限才能抓取到
 第二步:直接進入tmp目錄下分組倉儲，後輸入 git submodule add https://github.com/41023110/cd2024.git 41023110  #分組組員個人cd2024倉儲，並以組員倉儲名當作目錄
 第三步:git add .      git commit -m "add"      git push
-並轉交付任務給與組員&lt;/p&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>W2</title><link href="./41023108-w2.html" rel="alternate"></link><published>2024-03-04T00:00:00+08:00</published><updated>2024-04-12T08:43:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-04:./41023108-w2.html</id><summary type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
+並轉交付任務給與組員&lt;/p&gt;</content><category term="w3-41023108"></category><category term="網誌編寫 41023108"></category></entry><entry><title>W2</title><link href="./41023108-w2.html" rel="alternate"></link><published>2024-03-04T00:00:00+08:00</published><updated>2024-04-12T08:43:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-04:./41023108-w2.html</id><summary type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;各週上課內容心得及實作項目&lt;/p&gt;
 
 

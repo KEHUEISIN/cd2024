@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-12T08:43:42-00:00</lastmod>
+<lastmod>2024-04-12T08:45:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-12T08:43:42-00:00</lastmod>
+<lastmod>2024-04-12T08:45:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-12T08:43:42-00:00</lastmod>
+<lastmod>2024-04-12T08:45:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-12T08:43:42-00:00</lastmod>
+<lastmod>2024-04-12T08:45:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,8 +60,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./2024-Spring-w3-blog-tutorial.html</loc>
-<lastmod>2024-03-10T07:57:47+08:00</lastmod>
+<loc>./41023108-w3.html</loc>
+<lastmod>2024-04-12T08:44:35+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -95,8 +95,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./category/w3.html</loc>
-<lastmod>2024-03-10T07:57:47+08:06</lastmod>
+<loc>./category/w3-41023108.html</loc>
+<lastmod>2024-04-12T08:44:35+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -125,13 +125,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/wang-zhi-bian-xie-41023108.html</loc>
 <lastmod>2024-04-12T14:19:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/wang-zhi-bian-xie.html</loc>
-<lastmod>2024-03-10T07:57:47+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
