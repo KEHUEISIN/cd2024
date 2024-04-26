@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-26T06:13:41-00:00</lastmod>
+<lastmod>2024-04-26T06:44:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-26T06:13:41-00:00</lastmod>
+<lastmod>2024-04-26T06:44:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-26T06:13:41-00:00</lastmod>
+<lastmod>2024-04-26T06:44:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-26T06:13:41-00:00</lastmod>
+<lastmod>2024-04-26T06:44:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -74,20 +74,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./41023108-w3.html</loc>
-<lastmod>2024-04-12T09:44:42+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./41023108-w2.html</loc>
-<lastmod>2024-04-12T09:41:33+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./2024-Spring-w1-blog-tutorial.html</loc>
 <lastmod>2024-04-26T06:12:12+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -97,20 +83,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./category/w1.html</loc>
 <lastmod>2024-04-26T06:12:12+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./category/w2-41023108.html</loc>
-<lastmod>2024-04-12T09:41:33+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./category/w3-41023108.html</loc>
-<lastmod>2024-04-12T09:44:42+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
