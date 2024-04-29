@@ -23,7 +23,8 @@
 <li>latex pdf檔整合。</li>
 <li>個人影片錄製。</li>
 </ol>
-<p><img alt="" height="878" src="/images/螢幕擷取畫面 2024-04-25 212103.png" width="694"/></p><h1>Experience</h1>
+<p><img alt="" height="878" src="/images/螢幕擷取畫面 2024-04-25 212103.png" width="694"/></p>
+<h1>Experience</h1>
 <p>此頁為心得，及問題延伸或感興趣問題議題探討區</p>
 <h2>Problem discussion</h2>
 <p><span style="background-color: #ffff00;">問:</span><span>分組倉儲子目錄內容沒跟組員倉儲同步</span></p>
@@ -201,7 +202,23 @@ while True:
 <ol start="5">
 <li><strong>运行仿真：</strong> 在CoppeliaSim中启动仿真，并运行你的Python脚本。你应该能够看到钢球平衡台根据你的控制算法进行运动。</li>
 </ol>
-<h1>Github</h1>
+<h2>Problem discussion4</h2>
+<p><span style="background-color: #ff0000;">問:</span>分組倉儲其中一組員內容無法同步，案例如下html。</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">git pull origin main #分組倉儲資料夾中進入41023211子模組塊，執行遠端抓取最新資料。
+From https://github.com/Wmrtbij49h/cd2024 #下面開始為出現的問題內容。
+ * branch            main       -&gt; FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+        markdown/20240218.md
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 403c103..f446e6c</pre>
+<p><span style="background-color: #ffff00;">test:</span>我想刪除組員子目錄，並重新抓取。</p>
+<p>我先將資料夾中關於41023211這個組員的相關資料刪除，後重新又抓取，但可能是我沒刪除乾淨，cmd對我說<span>Git 認為 '41023211' 已經存在於索引中，這通常意味著 '41023211' 已經被 Git 記錄為一個子模塊。子模塊是 Git 子項目的一部分，我放棄對41023211這位組員子目錄刪除，採用同名稱直接覆蓋的方法，程式碼如下面html檔。</span></p>
+<p><span style="background-color: #ffff00;">chatgpt答:</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">git submodule add --force https://github.com/Wmrtbij49h/cd2024.git 41023211
+</pre>
+<p><span>如果你確定這個本地的 '41023211' 子模塊目錄是正確的且包含了你想要的內容，你可以放心地使用 </span><code>--force</code><span> 選項。</span></p>
+<p>請注意，如果你不確定如何處理這個情況，或者你希望使用不同的名稱來避免覆蓋現有的目錄，你可以使用 --name 選項來指定一個新的子模塊名稱。</p><h1>Github</h1>
 <p>在git pull遇到下列問題</p>
 <p><span style="background-color: #ffff00;">問題:</span></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">git pull origin main
@@ -234,7 +251,8 @@ Saved working directory and index state WIP on main: c96ebf6 up這段文字內�
 
 </pre>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">1.git stash pop  #此程式碼為完成拉取後，可以使用將儲藏的修改應用回來。</pre>
-<br/><br/><br/>
+<br/>
+<br/><br/>
 <h1>cmsimde</h1>
 <p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
 <p><span style="background-color: #ccffcc;">EditA</span> - Edit All page - 將所有頁面放入編輯模式中, 主要用來處理頁面搬遷, 刪除或決定衝突頁面內容版本.</p>

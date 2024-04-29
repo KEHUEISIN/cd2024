@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,42 +142,23 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">Problem discussion4 << <a href='Problem discussion4.html'>Previous</a> <a href='cmsimde.html'>Next</a> >> cmsimde<br /><h1>Github</h1>
-<p>在git pull遇到下列問題</p>
-<p><span style="background-color: #ffff00;">問題:</span></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">git pull origin main
-From https://github.com/mdecd2024/2a-midag8
-* branch main -&gt; FETCH_HEAD
-Updating c96ebf6..916a3c7
+    <div id="tipue_search_content">Problem discussion3 << <a href='Problem discussion3.html'>Previous</a> <a href='Github.html'>Next</a> >> Github<br /><h1>Problem discussion4</h1>
+<p><span style="background-color: #ff0000;">問:</span>分組倉儲其中一組員內容無法同步，案例如下html。</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">git pull origin main #分組倉儲資料夾中進入41023211子模組塊，執行遠端抓取最新資料。
+From https://github.com/Wmrtbij49h/cd2024 #下面開始為出現的問題內容。
+ * branch            main       -&gt; FETCH_HEAD
 error: Your local changes to the following files would be overwritten by merge:
-blog/archives.html
-blog/author/kmol.html
-blog/authors.html
-blog/categories.html
-blog/category/w1.html
-blog/feeds/all.atom.xml
-blog/feeds/w1.atom.xml
-blog/index.html
-blog/pages/about/index.html
-blog/search.html
-blog/sitemap.xml
-blog/tag/wang-zhi-bian-xie.html
-blog/tags.html
-markdown/20240218.md
-Please commit your changes or stash them before you merge.</pre>
-<p><span style="background-color: #ffff00;">詢問chatgpt後解決的方式:</span></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">1.git checkout -- &lt;file&gt;  #此程式碼為放棄本地修改， 如果確定不需要這些本地修改，可以使用此命令放棄這些修改
-2.git stash #此程式碼為儲藏本地修改，如果暫時不想提交這些修改但又不想喪失它們，可以使用此命令將修改儲藏起來，然後再執行 git pull origin main。
-3.出現了git stash
-Saved working directory and index state WIP on main: c96ebf6 up這段文字內容。
-4.最後在git pull origin main抓取最新資料。
-
-
+        markdown/20240218.md
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 403c103..f446e6c</pre>
+<p><span style="background-color: #ffff00;">test:</span>我想刪除組員子目錄，並重新抓取。</p>
+<p>我先將資料夾中關於41023211這個組員的相關資料刪除，後重新又抓取，但可能是我沒刪除乾淨，cmd對我說<span>Git 認為 '41023211' 已經存在於索引中，這通常意味著 '41023211' 已經被 Git 記錄為一個子模塊。子模塊是 Git 子項目的一部分，我放棄對41023211這位組員子目錄刪除，採用同名稱直接覆蓋的方法，程式碼如下面html檔。</span></p>
+<p><span style="background-color: #ffff00;">chatgpt答:</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">git submodule add --force https://github.com/Wmrtbij49h/cd2024.git 41023211
 </pre>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">1.git stash pop  #此程式碼為完成拉取後，可以使用將儲藏的修改應用回來。</pre>
-<br/>
-<br/><br/>
-<br />Problem discussion4 << <a href='Problem discussion4.html'>Previous</a> <a href='cmsimde.html'>Next</a> >> cmsimde</div>
+<p><span>如果你確定這個本地的 '41023211' 子模塊目錄是正確的且包含了你想要的內容，你可以放心地使用 </span><code>--force</code><span> 選項。</span></p>
+<p>請注意，如果你不確定如何處理這個情況，或者你希望使用不同的名稱來避免覆蓋現有的目錄，你可以使用 --name 選項來指定一個新的子模塊名稱。</p><br />Problem discussion3 << <a href='Problem discussion3.html'>Previous</a> <a href='Github.html'>Next</a> >> Github</div>
 
     <!-- footer -->
       <div class="container">
