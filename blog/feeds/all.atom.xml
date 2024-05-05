@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 KEHUEISIN</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-04T15:56:29+08:00</updated><entry><title>2a-midag8 2024 w8 Spring 課程</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-12T14:19:00+08:00</published><updated>2024-04-26T06:13:33+08:00</updated><author><name>41023108</name></author><id>tag:None,2024-04-12:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;第八週實作內容報告&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 KEHUEISIN</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-05T06:15:41+08:00</updated><entry><title>2a-midag8 2024 w8 Spring 課程</title><link href="./2024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-08T14:19:00+08:00</published><updated>2024-05-05T06:15:41+08:00</updated><author><name>41023108</name></author><id>tag:None,2024-04-08:./2024-Spring-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;第八週實作內容報告&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第八週實作內容報告&lt;/p&gt;
 
 
@@ -14,7 +14,7 @@
 
 
 &lt;h1&gt;更分組網站內容&lt;/h1&gt;
-&lt;p&gt;指派任務與組員，並要求其查找練習2說明如何在 CoppeliaSim 環境中, 利用 IPv6 ZeroMQ Remote API Python 進行兩個自由度的鋼球平衡檯自動控制系統模擬?相關內容。&lt;/p&gt;</content><category term="w7"></category><category term="網誌編寫"></category></entry><entry><title>2a-midag8 2024 w4 Spring 課程</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-15T16:18:00+08:00</published><updated>2024-05-04T15:56:29+08:00</updated><author><name>41023108,41023110</name></author><id>tag:None,2024-03-15:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;第四週實作內容報告&lt;/p&gt;
+&lt;p&gt;指派任務與組員，並要求其查找練習2說明如何在 CoppeliaSim 環境中, 利用 IPv6 ZeroMQ Remote API Python 進行兩個自由度的鋼球平衡檯自動控制系統模擬?相關內容。&lt;/p&gt;</content><category term="w7"></category><category term="網誌編寫"></category></entry><entry><title>2a-midag8 2024 w4 Spring 課程</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-13T16:18:00+08:00</published><updated>2024-05-05T06:14:45+08:00</updated><author><name>41023108,41023110</name></author><id>tag:None,2024-03-13:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;第四週實作內容報告&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第四週實作內容報告&lt;/p&gt;
 
 
