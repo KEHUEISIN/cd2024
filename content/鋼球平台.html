@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,54 +142,12 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">Problem discussion << <a href='Problem discussion.html'>Previous</a> <a href='Problem discussion3.html'>Next</a> >> Problem discussion3<br /><h1>Problem discussion2</h1>
-<p><span style="background-color: #ffff00;">同問:</span><span>如果不想手動處理</span></p>
-<p></p>
-<p><span style="background-color: #ff0000;">chatgpt答:</span></p>
-<p>使用 Git Hooks：</p>
-<p>Git Hooks 可以讓您在特定的 Git 事件觸發時自動執行腳本或命令。您可以使用 <code>post-merge</code> 或 <code>post-checkout</code> Hook 來在拉取或切換分支後自動同步子目錄內容。</p>
-<ol>
-<li>
-<p><strong>post-merge Hook</strong>：</p>
-<ul>
-<li>當您從遠端倉儲拉取最新更改並合併到本地分支時觸發。</li>
-<li>在倉儲的 <code>.git/hooks</code> 目錄下可以創建一個名為 <code>post-merge</code> 的檔案（無檔名擴展名），並為其添加執行權限。</li>
-<li>編輯 <code>post-merge</code> 檔案，加入以下內容：</li>
-</ul>
-</li>
-</ol>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">#!/bin/sh
-cd path/to/member_A  # 進入組員 A 的子目錄
-git pull origin main  # 從組員 A 的主分支拉取最新更改
-</pre>
-<p><span>確保 </span><code>post-merge</code><span> 檔案有執行權限：</span></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">chmod +x .git/hooks/post-merge
-</pre>
-<p>post-checkout Hook：</p>
-<ul>
-<li>當您從不同分支切換到其他分支時觸發。</li>
-<li>同樣，在倉儲的 <code>.git/hooks</code> 目錄下可以創建一個名為 <code>post-checkout</code> 的檔案（無檔名擴展名），並為其添加執行權限。</li>
-<li>編輯 <code>post-checkout</code> 檔案，加入以下內容：</li>
-</ul>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">#!/bin/sh
-cd path/to/member_A  # 進入組員 A 的子目錄
-git pull origin main  # 從組員 A 的主分支拉取最新更改
-</pre>
-<p><span>確保 </span><code>post-checkout</code><span> 檔案有執行權限：</span></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">chmod +x .git/hooks/post-checkout
-</pre>
-<ol>
-<li>
-<p><strong>注意事項</strong>：</p>
-<ul>
-<li>將 <code>path/to/member_A</code> 替換為組員 A 的子目錄路徑。</li>
-<li>您可以為每個組員的子目錄創建相應的 <code>post-merge</code> 或 <code>post-checkout</code> Hook。</li>
-</ul>
-</li>
-</ol>
-<p>這樣設置後，每次從遠端倉儲拉取最新更改或者切換分支時，Git 會自動執行對應的 Hook 腳本，自動進行子目錄內容的同步。這樣您就不需要手動處理了。</p>
-<p>使用此方法<span>設置 Hook 時要小心，以免誤操作導致意外的結果.</span></p>
-<br />Problem discussion << <a href='Problem discussion.html'>Previous</a> <a href='Problem discussion3.html'>Next</a> >> Problem discussion3</div>
+    <div id="tipue_search_content">w12 task1 << <a href='w12 task1.html'>Previous</a> <a href='cmsimde.html'>Next</a> >> cmsimde<br /><h1>鋼球平台</h1>
+<p><span style="background-color: #ffff00;">心得:</span></p>
+<p>此次鋼球平台由我指派組員繪製鋼球平台零組件，零組件作動由我執行，以下網址是我在2a-midag8中所做的頁面</p>
+<p><a href="https://mdecd2024.github.io/2a-midag8/content/%E9%8B%BC%E7%90%83%E5%B9%B3%E5%8F%B0.html">https://mdecd2024.github.io/2a-midag8/content/%E9%8B%BC%E7%90%83%E5%B9%B3%E5%8F%B0.html</a></p>
+<p>內容已全部放置其中。</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/32tiYQUMbbY?si=UJuzvYd6CeN6KIon" title="YouTube video player" width="560"></iframe></p><br />w12 task1 << <a href='w12 task1.html'>Previous</a> <a href='cmsimde.html'>Next</a> >> cmsimde</div>
 
     <!-- footer -->
       <div class="container">
